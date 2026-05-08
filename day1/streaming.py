@@ -11,5 +11,5 @@ response = client.models.generate_content_stream(
     contents=["Explain how AI works"]
 )
 for chunk in response:
-    print("Received Chunk: \n")
+    print("\n Received Chunk: \n")
     print(chunk.text, end="")

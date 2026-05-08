@@ -1,8 +1,10 @@
-## To-do List
+## Day 1 - Getting started with LLM API
 
 - Run the OpenAI/Anthropic quickstarts (Python & JS). - Using GEMINI instead
 - Send a message, stream it, mess with temperature/top_p, hit a rate limit, parse an error.
 - Force JSON output using the `response_format` parameter (or tool calling with strict: true). Write a script that asks for a fictional invoice and stores the parsed JSON in a dict. Intentionally prompt it to break the schema and catch the failure.
+
+## Fiddling With Temperature Parameter
 
 **With Low Temperature - 0.1**
 
@@ -58,7 +60,7 @@ AI has been around since the 1950s, but it has exploded recently for three reaso
 **The most important thing to remember:** AI doesn't "understand" things the way humans do. It doesn't have feelings or consciousness. It is simply a very sophisticated calculator that predicts the most likely outcome based on what it has seen before.
 ```
 
-**With High Temperature**
+**With High Temperature ~ 0.8**
 
 ```text
 At its simplest level, Artificial Intelligence (AI) doesn't "think" the way a human does. It doesn't have feelings, beliefs, or a conscious mind. Instead, it is a highly sophisticated system of **mathematics, data, and pattern recognition.**
@@ -110,6 +112,8 @@ One of the most interesting (and scary) things about AI is that even the people 
 
 AI is essentially **a giant prediction machine** that uses the past (data) to make guesses about the present or future.
 ```
+
+## Structured Output
 
 ```json
 {
